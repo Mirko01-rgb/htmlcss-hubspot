@@ -21,9 +21,12 @@
 
 
 /* Parte header */
-nav {
- height: 80px;
- margin-top: 20px;
+
+/* header sezione 1*/
+ .listato {
+ height: 50px;
+ margin-top: 50px;
+ border-bottom: 1px solid black;
  /* debug */
  /* background-color: red; */
 }
@@ -41,8 +44,9 @@ nav {
 .margin-left-conctact{
 margin-left: 40px;
 }
+
 .margin-left-search {
-  margin-left: 500px;
+  margin-left: 583px;
 }
 
 .fas, .select{
@@ -50,8 +54,6 @@ color: black;
 margin: 0 2px;
 border: none;
 }
-
-
 
 .listato .log-in  a{
   border: 1px solid orange;
@@ -70,10 +72,35 @@ border: none;
   color: white;
 }
 
+
+/* header sezioone 2 */
+.listato-2{
+  height: 80px;
+  padding-top: 20px;
+  /* background-color: yellow; */
+}
+
+.listato-2 ol li{
+  display: inline-block;
+}
+
+.listato-2 ol li a{
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+
+/* header sezione 3 */
 .jumbotron{
-  height: 500px;
+  height: 685px;
+   background-image: url(../img/jumbotron.png);
   /* debug */
-  background-color: yellow;
+  /* background-color: yellow; */
+}
+
+.jumbotron .immagine-jumbotron{
+
+
 }
 
 
