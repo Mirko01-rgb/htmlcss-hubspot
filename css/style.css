@@ -64,11 +64,10 @@ border: none;
 
 }
 
-.listato .button-get-green a {
+.listato .button-get-orange a {
   background-color: orange;
   padding: 10px;
   border-radius: 5px;
-
   color: white;
 }
 
@@ -90,21 +89,41 @@ border: none;
   font-size: 13px;
 }
 
+
+
 /* header sezione 3 */
 .jumbotron{
   height: 685px;
-   background-image: url(../img/jumbotron.png);
+  background-image: url(../img/jumbotron.png);
   /* debug */
   /* background-color: yellow; */
 }
 
-.jumbotron .immagine-jumbotron{
-
-
+.title{
+  width: 50%;
+  font-size: 30px;
+  padding-top: 60px;
 }
 
+.paragrafo-marketing{
+width: 47%;
+font-size: 19px;
+padding-top: 30px;
+}
 
+.button-get-orange-2 a{
+  display: inline-block;
+  background-color: orange;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  margin-top: 30px;
+  padding: 20px 40px;
+}
 
+.paragrafo-get-started{
+  padding-top: 30px;
+}
 /* regole main */
 
 /* main sezione 1 */
