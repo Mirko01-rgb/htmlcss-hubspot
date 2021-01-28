@@ -1,0 +1,104 @@
+/* Regole generali */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parte3-row::after{
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* .container{
+  width: 80%;
+  margin: 0 10%;
+} */
+
+
+/* Parte header */
+
+.header{
+ height: 80px;
+
+ /* debug */
+ background-color: red;
+}
+
+.jumbotron{
+  height: 500px;
+  /* debug */
+  background-color: yellow;
+}
+
+
+
+/* regole main */
+
+/* main sezione 1 */
+.powerful{
+  /* debug */
+  background-color: orange;
+  height:500px;
+
+}
+
+
+/* main sezione 2 */
+.marketing-hub{
+  float: left;
+  width: 31.5%;
+  margin-top: 30px;
+  /* debug */
+  background-color: lightblue;
+  height:500px;
+
+}
+
+.sales-hub{
+  float: left;
+  width: 31.5%;
+  margin: 30px 2.75%;
+  /* debug */
+  background-color: lightblue;
+  height:500px;
+}
+
+.service-hub{
+  float: left;
+  width: 31.5%;
+  margin-top: 30px;
+  /* debug */
+  background-color: lightblue;
+  height:500px;
+}
+
+
+/* main sezione 3  */
+.learn-and-grow{
+  /* debug */
+  background-color: blue;
+  height:500px;
+
+}
+
+
+/* main sezione 4 */
+.start-growing{
+  /* debug */
+  border: 1px solid black;
+  height:500px;
+}
+
+
+/* Parte finale */
+
+.footer{
+  margin-top: 30px;
+  /* debug */
+  height: 400px;
+  background-color: purple;
+}
