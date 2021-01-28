@@ -93,7 +93,7 @@ border: none;
 
 /* header sezione 3 */
 .jumbotron{
-  height: 685px;
+  height: 610px;
   background-image: url(../img/jumbotron.png);
   /* debug */
   /* background-color: yellow; */
@@ -124,6 +124,17 @@ padding-top: 30px;
 .paragrafo-get-started{
   padding-top: 30px;
 }
+
+
+/* header sezione 4 */
+.header-seziona-4{
+  height: 80px;
+  background-color: lightblue;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+
 /* regole main */
 
 /* main sezione 1 */
