@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif
 }
 
 .parte3-row::after{
@@ -13,19 +14,60 @@
 
 }
 
-/* .container{
+.container{
   width: 80%;
   margin: 0 10%;
-} */
+}
 
 
 /* Parte header */
-
-.header{
+nav {
  height: 80px;
-
+ margin-top: 20px;
  /* debug */
- background-color: red;
+ /* background-color: red; */
+}
+
+.listato ol li  {
+  display: inline-block;
+}
+
+.listato ol li a{
+  text-decoration: none;
+  color: black;
+
+}
+
+.margin-left-conctact{
+margin-left: 40px;
+}
+.margin-left-search {
+  margin-left: 500px;
+}
+
+.fas, .select{
+color: black;
+margin: 0 2px;
+border: none;
+}
+
+
+
+.listato .log-in  a{
+  border: 1px solid orange;
+  padding: 10px;
+  border-radius: 5px;
+  color: orange;
+  margin: 0 20px;
+
+}
+
+.listato .button-get-green a {
+  background-color: orange;
+  padding: 10px;
+  border-radius: 5px;
+
+  color: white;
 }
 
 .jumbotron{
