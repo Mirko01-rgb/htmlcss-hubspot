@@ -7,7 +7,7 @@
   font-family: 'Ubuntu', sans-serif
 }
 
-.parte3-row::after{
+.sezione2-row::after{
   content: "";
   display: table;
   clear: both;
@@ -74,7 +74,7 @@ border: none;
 }
 
 
-/* header sezioone 2 */
+/* header sezione 2 */
 .listato-2{
   height: 80px;
   padding-top: 20px;
@@ -94,9 +94,10 @@ border: none;
 }
 
 .position-fixed{
-  /* position: fixed; */
+  position: fixed;
   top:0;
   width: 100%;
+   background-color: white;
 }
 
 /* header sezione 3 */
@@ -148,11 +149,12 @@ padding-top: 30px;
 /* regole main */
 
 /* main sezione 1 */
+/* Parte 1 */
+
 .powerful{
  /* debug */
-  background-color: orange;
-  height: 600px;
-
+   /* background-color: orange;  */
+  /* height: 800px; */
 }
 
 .img-cube{
@@ -176,6 +178,93 @@ padding-top: 30px;
 .paragrafo-powerful{
   font-size: 20px;
   margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+
+/* Parte 2 */
+.blocco-learn-more{
+  float: left;
+  width: 300px;
+  border-top: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  /* debug */
+  /* height: 500px; */
+  /* background-color: red; */
+
+}
+
+.blocco-learn-more img{
+  width: 50%;
+  margin: 70px 70px 20px 70px;
+
+}
+
+.button-learnmore-orange a{
+  display: inline-block;
+  background-color: #ff7a59;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  padding: 20px 40px;
+  margin-left: 65px;
+  margin-bottom: 79px;
+}
+
+.blocco-free-hubspot{
+  float: left;
+  width: 775px;
+  border-top: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  /* debug */
+  /* height: 300px; */
+  /* background-color: red; */
+  /* border: 1px solid black; */
+}
+
+.blocco-free-hubspot .margin-CRM{
+  margin: 70px 70px 80px 30px;
+}
+
+.margin-CRM {
+  margin: 30px ;
+}
+
+.margin-CRM p{
+  margin: 30px 0;
+}
+
+.margin-CRM h4{
+  display: inline-block;
+}
+
+.linea{
+  display: inline-block;
+  width: 69%;
+  margin: 1% auto;
+  border: 1px solid #808080;
+  margin-left: 50px;
+}
+
+.tag-a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.container-contact-deals-task{
+  margin-top:35px;
+}
+
+ .container-contact-deals-task .check{
+  margin: 0 30px;
+}
+
+.color{
+  color: #ff7a59;
+  margin-right: 20px;
 }
 
 /* main sezione 2 */
