@@ -33,6 +33,8 @@
 
 .listato ol li  {
   display: inline-block;
+  list-style-type: none;
+
 }
 
 .listato ol li a{
@@ -81,6 +83,8 @@ border: none;
 
 .listato-2 ol li{
   display: inline-block;
+  list-style-type: none;
+
 }
 
 .listato-2 ol li a{
@@ -89,10 +93,15 @@ border: none;
   font-size: 13px;
 }
 
-
+.position-fixed{
+  position: fixed;
+  top:0;
+  width: 100%;
+}
 
 /* header sezione 3 */
 .jumbotron{
+  margin-top: 200px;
   height: 610px;
   background-image: url(../img/jumbotron.png);
   /* debug */
@@ -132,6 +141,7 @@ padding-top: 30px;
   background-color: lightblue;
   border-top: 3px solid black;
   border-bottom: 3px solid black;
+
 }
 
 
@@ -174,6 +184,7 @@ padding-top: 30px;
   background-color: lightblue;
   height:500px;
 }
+
 
 
 /* main sezione 3  */
