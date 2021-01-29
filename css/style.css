@@ -271,6 +271,8 @@ padding-top: 30px;
 }
 
 /* main sezione 2 */
+
+/* parte 1 */
 .marketing-hub{
   float: left;
   width: 31.5%;
@@ -283,7 +285,7 @@ padding-top: 30px;
 }
 
 .marketing-hub img{
-  width: 28%;
+  width: 35%;
   margin-left: 120px;
   margin-top: 30px;
 }
@@ -295,9 +297,9 @@ padding-top: 30px;
 }
 
 .title-marketing p{
-text-align: center;
-font-size: 18px;
-margin-top: 30px;
+ text-align: center;
+ font-size: 18px;
+ margin-top: 30px;
 }
 
 .title-marketing h4{
@@ -325,7 +327,13 @@ margin-top: 30px;
   margin: 30px 2.75%;
   /* debug */
   background-color: lightblue;
-  height:500px;
+   /* height:500px;  */
+}
+
+.sales-hub img{
+  width: 45%;
+  margin-left: 90px;
+  margin-top: 30px;
 }
 
 
