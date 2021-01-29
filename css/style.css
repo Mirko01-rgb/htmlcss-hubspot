@@ -94,10 +94,10 @@ border: none;
 }
 
 .position-fixed{
-  position: fixed;
+  /* position: fixed; */
   top:0;
   width: 100%;
-   background-color: white;
+  background-color: white;
 }
 
 /* header sezione 3 */
@@ -196,8 +196,9 @@ padding-top: 30px;
 }
 
 .blocco-learn-more img{
-  width: 50%;
-  margin: 70px 70px 20px 70px;
+  width: 42%;
+  margin: 70px 70px 20px 110px;
+
 
 }
 
@@ -208,8 +209,8 @@ padding-top: 30px;
   color: white;
   text-decoration: none;
   padding: 20px 40px;
-  margin-left: 65px;
-  margin-bottom: 79px;
+  margin-left: 90px;
+  margin-bottom: 96px;
 }
 
 .blocco-free-hubspot{
@@ -225,7 +226,7 @@ padding-top: 30px;
 }
 
 .blocco-free-hubspot .margin-CRM{
-  margin: 70px 70px 80px 30px;
+  margin: 70px 40px 80px 30px;
 }
 
 .margin-CRM {
@@ -234,6 +235,8 @@ padding-top: 30px;
 
 .margin-CRM p{
   margin: 30px 0;
+  font-size: 15px;
+  width: 80%;
 }
 
 .margin-CRM h4{
@@ -242,7 +245,7 @@ padding-top: 30px;
 
 .linea{
   display: inline-block;
-  width: 69%;
+  width: 70%;
   margin: 1% auto;
   border: 1px solid #808080;
   margin-left: 50px;
@@ -272,12 +275,50 @@ padding-top: 30px;
   float: left;
   width: 31.5%;
   margin-top: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
   /* debug */
-  background-color: lightblue;
-  height:500px;
+  /* background-color: lightblue; */
+  /* height:500px; */
+}
+
+.marketing-hub img{
+  width: 28%;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
+.title-marketing h3{
+  text-align: center;
+  font-size: 25px;
 
 }
 
+.title-marketing p{
+text-align: center;
+font-size: 18px;
+margin-top: 30px;
+}
+
+.title-marketing h4{
+  text-align: center;
+}
+
+.check-list{
+ margin: 30px 0 30px 30px;
+}
+
+.margin-linea{
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.margin-button-learnmore a{
+  margin-bottom: 20px;
+}
+
+
+/* parte 2 */
 .sales-hub{
   float: left;
   width: 31.5%;
@@ -287,6 +328,8 @@ padding-top: 30px;
   height:500px;
 }
 
+
+/* parte 3 */
 .service-hub{
   float: left;
   width: 31.5%;
@@ -300,6 +343,7 @@ padding-top: 30px;
 
 /* main sezione 3  */
 .learn-and-grow{
+  margin-top: 30px;
   /* debug */
   background-image: linear-gradient(45deg
     ,#00a4bd,#00bda5);
