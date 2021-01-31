@@ -189,10 +189,11 @@ padding-top: 30px;
   border-top: 1px solid lightgrey;
   border-left: 1px solid lightgrey;
   border-bottom: 1px solid lightgrey;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   /* debug */
   /* height: 500px; */
   /* background-color: red; */
-
 }
 
 .blocco-learn-more img{
@@ -219,6 +220,8 @@ padding-top: 30px;
   border-top: 1px solid lightgrey;
   border-right: 1px solid lightgrey;
   border-bottom: 1px solid lightgrey;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   /* debug */
   /* height: 300px; */
   /* background-color: red; */
@@ -399,7 +402,7 @@ padding-top: 30px;
 }
 
 .border-right-none{
-  border-right: none; 
+  border-right: none;
 }
 
 .box img{
@@ -425,9 +428,6 @@ padding-top: 30px;
 .box .sotto-titolo{
   color: white;
   font-size: 8px;
-
-
-
 }
 
 /* main sezione 4 */
