@@ -44,7 +44,7 @@
 }
 
 .margin-left-conctact{
-margin-left: 40px;
+ margin-left: 40px;
 }
 
 .margin-left-search {
@@ -52,9 +52,9 @@ margin-left: 40px;
 }
 
 .fas, .select{
-color: black;
-margin: 0 2px;
-border: none;
+ color: black;
+ margin: 0 2px;
+ border: none;
 }
 
 .listato .log-in  a{
@@ -94,7 +94,7 @@ border: none;
 }
 
 .position-fixed{
-  position: fixed; 
+  /* position: fixed; */
   top:0;
   width: 100%;
   background-color: white;
@@ -366,9 +366,69 @@ padding-top: 30px;
   /* debug */
   background-image: linear-gradient(45deg
     ,#00a4bd,#00bda5);
-  height:500px;
+  height:570px;
 }
 
+.testo-learn h2{
+  color: white;
+  font-size: 32px;
+  text-align:center;
+  padding-top: 30px;
+}
+
+.testo-learn p{
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.box{
+  float: left;
+  border-right: 1px solid white;
+ /* debug */
+  margin-left: 0;
+  height: 140px;
+  width: 267px;
+  /* background-color: red; */
+}
+
+.border-bottom{
+  border-bottom: 1px solid white;
+}
+
+.border-right-none{
+  border-right: none; 
+}
+
+.box img{
+  display: block;
+  margin: 10px auto;
+
+}
+
+.box p{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.plus{
+  font-size: 15px;
+  vertical-align: baseline;
+}
+
+.box .sotto-titolo{
+  color: white;
+  font-size: 8px;
+
+
+
+}
 
 /* main sezione 4 */
 .start-growing{
