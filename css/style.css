@@ -24,7 +24,6 @@
 
 /* header sezione 1*/
 .listato {
-
  height: 50px;
  margin-top: 50px;
  border-bottom: 1px solid black;
@@ -44,9 +43,9 @@
 
 }
 
-.margin-left-conctact{
+/* .margin-left-contact{
  margin-left: 40px;
-}
+} */
 
 .float-right {
   float: right;
@@ -57,7 +56,11 @@
  margin: 0 2px;
  border: none;
 }
-
+.vertical-line{
+  border-left: 1px solid grey;
+  margin-left: 15px;
+  padding-left: 15px;
+}
 .listato .log-in  a{
   border: 1px solid #ff7a59;;
   padding: 10px;
