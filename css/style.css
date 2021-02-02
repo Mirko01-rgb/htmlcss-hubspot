@@ -23,31 +23,31 @@
 /* Parte header */
 
 /* header sezione 1*/
-.listato {
- height: 50px;
- margin-top: 50px;
- border-bottom: 1px solid black;
- /* debug */
- /* background-color: red; */
+.header-top{
+  border-bottom: 1px solid #33475b;
+  height: 80px;
+  padding-top: 20px;
+  /* debug */
+  /* background-color: red;*/
 }
 
-.listato ol li  {
+.header-top ol li  {
   display: inline-block;
   list-style-type: none;
 }
 
-.listato ol li a{
+.header-top  ol li a{
   text-decoration: none;
   color: #33475b;
-
 }
 
-/* .margin-left-contact{
- margin-left: 40px;
-} */
+.header-top-left{
+  float: left;
+}
 
-.float-right {
-  float: right;
+.header-top-right{
+  float:right;
+  padding-top: 10px;
 }
 
 .fas, .select{
@@ -60,7 +60,7 @@
   margin-left: 15px;
   padding-left: 15px;
 }
-.listato .log-in  a{
+.header-top-right .log-in  a{
   border: 1px solid #ff7a59;;
   padding: 10px;
   border-radius: 5px;
@@ -69,7 +69,7 @@
 
 }
 
-.listato .button-get-orange a {
+.header-top-right .button-get-orange a {
   background-color: #ff7a59;;
   padding: 10px;
   border-radius: 5px;
@@ -78,22 +78,30 @@
 
 
 /* header sezione 2 */
-.listato-2{
+.header-bottom{
   height: 80px;
-  padding-top: 20px;
+  padding-top: 10px;
+  /* debug */
   /* background-color: yellow; */
 }
 
-.listato-2 ol li{
+.header-bottom ol li{
   display: inline-block;
   list-style-type: none;
-
 }
 
-.listato-2 ol li a{
+.header-bottom ol li a{
   text-decoration: none;
   color: #33475b;
   font-size: 13px;
+}
+
+.header-bottom-left{
+  float: left;
+}
+
+.header-bottom-right{
+  float: right;
 }
 
 .position-fixed{
@@ -105,7 +113,7 @@
 
 /* header sezione 3 */
 .jumbotron{
-  margin-top: 200px;    /* il margine è dato dalla somma dei due nav + i vari padding e margin */
+  margin-top: 160px;    /* il margine è dato dalla somma dei due nav + i vari padding e margin */
   height: 610px;
   background-image: url(../img/jumbotron.png);
   /* debug */
@@ -655,11 +663,13 @@ color: #33475b;
   color: rgb(206, 218, 225);
 }
 
-.logo-footer a{
+.float-left-logo-footer{
+  float: left;
+}
+
+.float-right-privacy h4 a{
   float: right;
   color: rgb(206, 218, 225);
   text-decoration: none;
   margin-left: 30px;
-
-
 }
