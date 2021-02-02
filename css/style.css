@@ -34,12 +34,11 @@
 .listato ol li  {
   display: inline-block;
   list-style-type: none;
-
 }
 
 .listato ol li a{
   text-decoration: none;
-  color: black;
+  color: #33475b;
 
 }
 
@@ -52,7 +51,7 @@
 }
 
 .fas, .select{
- color: black;
+ color: #33475b;
  margin: 0 2px;
  border: none;
 }
@@ -93,7 +92,7 @@
 
 .listato-2 ol li a{
   text-decoration: none;
-  color: black;
+  color: #33475b;
   font-size: 13px;
 }
 
@@ -117,12 +116,14 @@
   width: 50%;
   font-size: 30px;
   padding-top: 60px;
+  color: #33475b;
 }
 
 .paragrafo-marketing{
 width: 47%;
 font-size: 19px;
 padding-top: 30px;
+color: #33475b;
 }
 
 .button-get-orange-2 a{
@@ -137,6 +138,7 @@ padding-top: 30px;
 
 .paragrafo-get-started{
   padding-top: 30px;
+  color: #33475b;
 }
 
 
@@ -176,6 +178,7 @@ padding-top: 30px;
 .title-powerful{
   font-size: 25px;
   text-align: center;
+  color: #33475b;
 
 }
 
@@ -229,6 +232,7 @@ padding-top: 30px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   height: 330px;
+  color: #33475b;
   /* debug */
   /* background-color: red; */
   /* border: 1px solid black; */
