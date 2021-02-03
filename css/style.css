@@ -70,7 +70,7 @@
 }
 
 .header-top-right .button-get-orange a {
-  background-color: #ff7a59;;
+  background-color: #FE775A;
   padding: 10px;
   border-radius: 5px;
   color: white;
@@ -136,7 +136,7 @@ color: #33475b;
 
 .button-get-orange-2 a{
   display: inline-block;
-  background-color: #ff7a59;;
+  background-color: #FE775A;
   border-radius: 5px;
   color: white;
   text-decoration: none;
@@ -220,7 +220,7 @@ color: #33475b;
 
 .button-learnmore-orange a{
   display: inline-block;
-  background-color: #ff7a59;
+  background-color: #FE775A;
   border-radius: 5px;
   color: white;
   text-decoration: none;
@@ -672,4 +672,28 @@ color: #33475b;
   color: rgb(206, 218, 225);
   text-decoration: none;
   margin-left: 30px;
+}
+
+
+.color i{
+  color:yellow;
+  float: right;
+  font-size: 100px;
+  position: fixed;
+  bottom:30px;
+  right: 10%;
+}
+
+.chat{
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  display:none;
+}
+
+.color:hover + .chat {
+  display:block;
+  position: absolute;
+
+
 }
